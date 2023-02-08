@@ -1,0 +1,438 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "f146b36a-a79a-11ed-a724-4f7dd7fd8dd7",
+    "deck_config_uuid": "f146e524-a79a-11ed-a724-4f7dd7fd8dd7",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "buryInterdayLearning": false,
+            "crowdanki_uuid": "f146e524-a79a-11ed-a724-4f7dd7fd8dd7",
+            "dyn": false,
+            "interdayLearningMix": 0,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 0,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Default",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    5,
+                    0
+                ],
+                "order": 1,
+                "perDay": 40,
+                "separate": true
+            },
+            "newGatherPriority": 0,
+            "newMix": 0,
+            "newPerDayMinimum": 0,
+            "newSortOrder": 0,
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 2.0,
+                "fuzz": 0.05,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 3650,
+                "minSpace": 1,
+                "perDay": 300
+            },
+            "reviewOrder": 0,
+            "timer": 0
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 0,
+    "extendRev": 0,
+    "media_files": [
+        "a6762eaa0afc4a28a7f6650b2f27acc6-oa-1-A.svg",
+        "a6762eaa0afc4a28a7f6650b2f27acc6-oa-1-Q.svg",
+        "a6762eaa0afc4a28a7f6650b2f27acc6-oa-2-A.svg",
+        "a6762eaa0afc4a28a7f6650b2f27acc6-oa-2-Q.svg",
+        "a6762eaa0afc4a28a7f6650b2f27acc6-oa-O.svg",
+        "tmp3lejvq2y.jpg"
+    ],
+    "name": "Everything::Carbon",
+    "newLimit": null,
+    "newLimitToday": null,
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "f1472552-a79a-11ed-a724-4f7dd7fd8dd7",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}",
+            "flds": [
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Text",
+                    "ord": 0,
+                    "plainText": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "font": "Arial",
+                    "name": "Extra",
+                    "ord": 1,
+                    "plainText": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Cloze",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{cloze:Text}}\n\n<br>\n\n{{Extra}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Cloze",
+                    "ord": 0,
+                    "qfmt": "{{cloze:Text}}"
+                }
+            ],
+            "type": 1,
+            "vers": []
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "f14753ce-a79a-11ed-a724-4f7dd7fd8dd7",
+            "css": "/* GENERAL CARD STYLE */\n.card {\n  font-family: \"Helvetica LT Std\", Helvetica, Arial, Sans;\n  font-size: 150%;\n  text-align: center;\n  color: black;\n  background-color: white;\n}\n\n/* OCCLUSION CSS START - don't edit this */\n#io-overlay {\n  position:absolute;\n  top:0;\n  width:100%;\n  z-index:3\n}\n\n#io-original {\n  position:relative;\n  top:0;\n  width:100%;\n  z-index:2;\n  visibility: hidden;\n}\n\n#io-wrapper {\n  position:relative;\n  width: 100%;\n}\n/* OCCLUSION CSS END */\n\n/* OTHER STYLES */\n#io-header{\n  font-size: 1.1em;\n  margin-bottom: 0.2em;\n}\n\n#io-footer{\n  max-width: 80%;\n  margin-left: auto;\n  margin-right: auto;\n  margin-top: 0.8em;\n  font-style: italic;\n}\n\n#io-extra-wrapper{\n  /* the wrapper is needed to center the\n  left-aligned blocks below it */\n  width: 80%;\n  margin-left: auto;\n  margin-right: auto;\n  margin-top: 0.5em;\n}\n\n#io-extra{\n  text-align:center;\n  display: inline-block;\n}\n\n.io-extra-entry{\n  margin-top: 0.8em;\n  font-size: 0.9em;\n  text-align:left;\n}\n\n.io-field-descr{\n  margin-bottom: 0.2em;\n  font-weight: bold;\n  font-size: 1em;\n}\n\n#io-revl-btn {\n  font-size: 0.5em;\n}\n\n/* ADJUSTMENTS FOR MOBILE DEVICES */\n\n.mobile .card, .mobile #content {\n  font-size: 120%;\n  margin: 0;\n}\n\n.mobile #io-extra-wrapper {\n  width: 95%;\n}\n\n.mobile #io-revl-btn {\n  font-size: 0.8em;\n}\n",
+            "flds": [
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "font": "Arial",
+                    "media": [],
+                    "name": "ID (hidden)",
+                    "ord": 0,
+                    "plainText": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Header",
+                    "ord": 1,
+                    "plainText": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Image",
+                    "ord": 2,
+                    "plainText": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Question Mask",
+                    "ord": 3,
+                    "plainText": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Footer",
+                    "ord": 4,
+                    "plainText": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Remarks",
+                    "ord": 5,
+                    "plainText": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Sources",
+                    "ord": 6,
+                    "plainText": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Extra 1",
+                    "ord": 7,
+                    "plainText": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Extra 2",
+                    "ord": 8,
+                    "plainText": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Answer Mask",
+                    "ord": 9,
+                    "plainText": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Original Mask",
+                    "ord": 10,
+                    "plainText": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Image Occlusion Enhanced",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        2
+                    ]
+                ]
+            ],
+            "sortf": 1,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{#Image}}\n<div id=\"io-header\">{{Header}}</div>\n<div id=\"io-wrapper\">\n  <div id=\"io-overlay\">{{Answer Mask}}</div>\n  <div id=\"io-original\">{{Image}}</div>\n</div>\n{{#Footer}}<div id=\"io-footer\">{{Footer}}</div>{{/Footer}}\n<button id=\"io-revl-btn\" onclick=\"toggle();\">Toggle Masks</button>\n<div id=\"io-extra-wrapper\">\n  <div id=\"io-extra\">\n    {{#Remarks}}\n      <div class=\"io-extra-entry\">\n        <div class=\"io-field-descr\">Remarks</div>{{Remarks}}\n      </div>\n    {{/Remarks}}\n    {{#Sources}}\n      <div class=\"io-extra-entry\">\n        <div class=\"io-field-descr\">Sources</div>{{Sources}}\n      </div>\n    {{/Sources}}\n    {{#Extra 1}}\n      <div class=\"io-extra-entry\">\n        <div class=\"io-field-descr\">Extra 1</div>{{Extra 1}}\n      </div>\n    {{/Extra 1}}\n    {{#Extra 2}}\n      <div class=\"io-extra-entry\">\n        <div class=\"io-field-descr\">Extra 2</div>{{Extra 2}}\n      </div>\n    {{/Extra 2}}\n  </div>\n</div>\n\n<script>\n// Toggle answer mask on clicking the image\nvar toggle = function() {\n  var amask = document.getElementById('io-overlay');\n  if (amask.style.display === 'block' || amask.style.display === '')\n    amask.style.display = 'none';\n  else\n    amask.style.display = 'block'\n}\n\n// Prevent original image from loading before mask\naFade = 50, qFade = 0;\nvar mask = document.querySelector('#io-overlay>img');\nfunction loaded() {\n    var original = document.querySelector('#io-original');\n    original.style.visibility = \"visible\";\n}\nif (mask === null || mask.complete) {\n    loaded();\n} else {\n    mask.addEventListener('load', loaded);\n}\n</script>\n{{/Image}}\n",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "IO Card",
+                    "ord": 0,
+                    "qfmt": "{{#Image}}\n<div id=\"io-header\">{{Header}}</div>\n<div id=\"io-wrapper\">\n  <div id=\"io-overlay\">{{Question Mask}}</div>\n  <div id=\"io-original\">{{Image}}</div>\n</div>\n<div id=\"io-footer\">{{Footer}}</div>\n\n<script>\n// Prevent original image from loading before mask\naFade = 50, qFade = 0;\nvar mask = document.querySelector('#io-overlay>img');\nfunction loaded() {\n    var original = document.querySelector('#io-original');\n    original.style.visibility = \"visible\";\n}\nif (mask === null || mask.complete) {\n    loaded();\n} else {\n    mask.addEventListener('load', loaded);\n}\n</script>\n{{/Image}}\n"
+                }
+            ],
+            "type": 0,
+            "vers": []
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "fields": [
+                "<b>Annual CO<sub>2</sub>&nbsp;emmissions per capita:&nbsp;</b><div><br></div><div>US: {{c1::16t CO<sub>2</sub>}}.&nbsp;</div><div>UK:&nbsp;{{c2::5t CO<sub>2</sub>}}.</div><div>Kenya:&nbsp;{{c3::0.3t CO<span style=\"font-size: 16.6667px;\"><sub>2</sub></span>}}.</div>",
+                ""
+            ],
+            "guid": "M%hmpV//S^",
+            "note_model_uuid": "f1472552-a79a-11ed-a724-4f7dd7fd8dd7",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "A London - NY flight releases ~{{c1::1t}} of CO<span style=\"font-size: 16.6667px;\"><sub>2</sub></span>",
+                ""
+            ],
+            "guid": "k)&#gQ-bD}",
+            "note_model_uuid": "f1472552-a79a-11ed-a724-4f7dd7fd8dd7",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "The production of a t-shirt takes ~{{c1::7kg}} of CO2e.",
+                ""
+            ],
+            "guid": "s%f#aGBsqR",
+            "note_model_uuid": "f1472552-a79a-11ed-a724-4f7dd7fd8dd7",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "An average car produces ~{{c1::0.5kg}} of CO2e per mile.",
+                ""
+            ],
+            "guid": "j2}=PT^cSc",
+            "note_model_uuid": "f1472552-a79a-11ed-a724-4f7dd7fd8dd7",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Natural gas produces ~{{c1::0.5kg}} CO2e per kwh; coal is about {{c1::1kg}}.",
+                ""
+            ],
+            "guid": "g0^hBwTAry",
+            "note_model_uuid": "f1472552-a79a-11ed-a724-4f7dd7fd8dd7",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "A 10-minute hot shower uses (very roughly) ~{{c1::4kg}} CO2e<br><br>Treating the water: {{c1::1kg}} CO2e<br>Heating the water: {{c1::2kg}} CO2e<br>Electricity cost of running the shower: {{c1::1kg}} CO2e<br><br>Taking a bath uses about&nbsp;{{c2::twice}} this amount.",
+                "<b><br>Sources:</b><br><br><a href=\"https://www.aquatell.ca/pages/how-household-water-usage-contributes-to-co2-emissions\">https://www.aquatell.ca/pages/how-household-water-usage-contributes-to-co2-emissions</a><br><a href=\"https://wint.ai/blog/the-carbon-footprint-of-water/\">https://wint.ai/blog/the-carbon-footprint-of-water/</a>"
+            ],
+            "guid": "eO?PS!%GCv",
+            "note_model_uuid": "f1472552-a79a-11ed-a724-4f7dd7fd8dd7",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Old Growth / Primary Forests are almost always carbon sinks, because {{c1::basically none of them (with the possible exception of the Pacific Northwest) have achieved the theoretical maximum biomass}}.",
+                "<b>Sources:<br></b><br>\"Old-growth forests as global carbon sinks\"<br><a href=\"https://sci-hub.ru/10.1038/nature07276\">https://sci-hub.ru/10.1038/nature07276</a>"
+            ],
+            "guid": "b3@SY3Rv_r",
+            "note_model_uuid": "f1472552-a79a-11ed-a724-4f7dd7fd8dd7",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Carbon is stored in forests in two major ways: {{c1::above-ground (i.e. trees)}} and {{c2::below-ground (i.e. soil)}}.",
+                ""
+            ],
+            "guid": "i|hc/tu1.r",
+            "note_model_uuid": "f1472552-a79a-11ed-a724-4f7dd7fd8dd7",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Soil is a surprisingly good long-term carbon store, and is a slowly-decomposing mix of&nbsp;{{c1::plant / animal detritus}} (which decomposes quickly) and&nbsp;{{c1::humus}} (which is the stable result of the former, and decomposes slowly).<br><br>Major disturbances to the soil (as when a forest is chopped down) cause {{c2::the soil to decompose faster}}, frequently resulting in {{c2::new growth forests being&nbsp;<b>net carbon emitters</b>}}<b>.</b>",
+                ""
+            ],
+            "guid": "wE.,Jl*;u>",
+            "note_model_uuid": "f1472552-a79a-11ed-a724-4f7dd7fd8dd7",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "a6762eaa0afc4a28a7f6650b2f27acc6-oa-1",
+                "",
+                "<img src=\"tmp3lejvq2y.jpg\" />",
+                "<img src=\"a6762eaa0afc4a28a7f6650b2f27acc6-oa-1-Q.svg\" />",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "<img src=\"a6762eaa0afc4a28a7f6650b2f27acc6-oa-1-A.svg\" />",
+                "<img src=\"a6762eaa0afc4a28a7f6650b2f27acc6-oa-O.svg\" />"
+            ],
+            "guid": "d|DybrSlZu",
+            "note_model_uuid": "f14753ce-a79a-11ed-a724-4f7dd7fd8dd7",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "a6762eaa0afc4a28a7f6650b2f27acc6-oa-2",
+                "",
+                "<img src=\"tmp3lejvq2y.jpg\" />",
+                "<img src=\"a6762eaa0afc4a28a7f6650b2f27acc6-oa-2-Q.svg\" />",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "<img src=\"a6762eaa0afc4a28a7f6650b2f27acc6-oa-2-A.svg\" />",
+                "<img src=\"a6762eaa0afc4a28a7f6650b2f27acc6-oa-O.svg\" />"
+            ],
+            "guid": "x3Lo8Jlm4z",
+            "note_model_uuid": "f14753ce-a79a-11ed-a724-4f7dd7fd8dd7",
+            "tags": []
+        }
+    ],
+    "reviewLimit": null,
+    "reviewLimitToday": null
+}
