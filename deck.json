@@ -308,19 +308,23 @@
             "css": ".card {\n  font-family: arial;\n  font-size: 20px;\n  text-align: center;\n  color: black;\n  background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n",
             "flds": [
                 {
+                    "collapsed": false,
                     "description": "",
                     "font": "Arial",
                     "name": "Text",
                     "ord": 0,
+                    "plainText": false,
                     "rtl": false,
                     "size": 20,
                     "sticky": false
                 },
                 {
+                    "collapsed": false,
                     "description": "",
                     "font": "Arial",
                     "name": "Back Extra",
                     "ord": 1,
+                    "plainText": false,
                     "rtl": false,
                     "size": 20,
                     "sticky": false
@@ -492,6 +496,16 @@
                 ""
             ],
             "guid": "M-Dd.QOxta",
+            "note_model_uuid": "fdae8056-a970-11ed-8421-15dbcf29f271",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "CO<sub>2</sub>&nbsp;has a half-life in the atmosphere of about&nbsp;{{c1::120}} years; methane is about {{c1::10}} years.",
+                ""
+            ],
+            "guid": "G$s*l`UwRt",
             "note_model_uuid": "fdae8056-a970-11ed-8421-15dbcf29f271",
             "tags": []
         }
