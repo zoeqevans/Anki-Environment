@@ -462,16 +462,6 @@
             "guid": "G$s*l`UwRt",
             "note_model_uuid": "f1472552-a79a-11ed-a724-4f7dd7fd8dd7",
             "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Test {{c1::1}}",
-                ""
-            ],
-            "guid": "bz~b>=i~&j",
-            "note_model_uuid": "f1472552-a79a-11ed-a724-4f7dd7fd8dd7",
-            "tags": []
         }
     ],
     "reviewLimit": null,
