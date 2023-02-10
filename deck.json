@@ -106,7 +106,7 @@
             "latexPost": "\\end{document}",
             "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
             "latexsvg": false,
-            "name": "Cloze-81b78",
+            "name": "Cloze",
             "req": [
                 [
                     0,
@@ -302,63 +302,6 @@
             ],
             "type": 0,
             "vers": []
-        },
-        {
-            "__type__": "NoteModel",
-            "crowdanki_uuid": "fdae8056-a970-11ed-8421-15dbcf29f271",
-            "css": ".card {\n  font-family: arial;\n  font-size: 20px;\n  text-align: center;\n  color: black;\n  background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n",
-            "flds": [
-                {
-                    "collapsed": false,
-                    "description": "",
-                    "font": "Arial",
-                    "name": "Text",
-                    "ord": 0,
-                    "plainText": false,
-                    "rtl": false,
-                    "size": 20,
-                    "sticky": false
-                },
-                {
-                    "collapsed": false,
-                    "description": "",
-                    "font": "Arial",
-                    "name": "Back Extra",
-                    "ord": 1,
-                    "plainText": false,
-                    "rtl": false,
-                    "size": 20,
-                    "sticky": false
-                }
-            ],
-            "latexPost": "\\end{document}",
-            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
-            "latexsvg": false,
-            "name": "Cloze",
-            "req": [
-                [
-                    0,
-                    "any",
-                    [
-                        0
-                    ]
-                ]
-            ],
-            "sortf": 0,
-            "tmpls": [
-                {
-                    "afmt": "{{cloze:Text}}<br>\n{{Back Extra}}",
-                    "bafmt": "",
-                    "bfont": "",
-                    "bqfmt": "",
-                    "bsize": 0,
-                    "did": null,
-                    "name": "Cloze",
-                    "ord": 0,
-                    "qfmt": "{{cloze:Text}}"
-                }
-            ],
-            "type": 1
         }
     ],
     "notes": [
@@ -497,7 +440,7 @@
                 ""
             ],
             "guid": "M-Dd.QOxta",
-            "note_model_uuid": "fdae8056-a970-11ed-8421-15dbcf29f271",
+            "note_model_uuid": "f1472552-a79a-11ed-a724-4f7dd7fd8dd7",
             "tags": []
         },
         {
@@ -507,7 +450,7 @@
                 ""
             ],
             "guid": "t~Qw]<v}{=",
-            "note_model_uuid": "fdae8056-a970-11ed-8421-15dbcf29f271",
+            "note_model_uuid": "f1472552-a79a-11ed-a724-4f7dd7fd8dd7",
             "tags": []
         },
         {
@@ -517,7 +460,7 @@
                 ""
             ],
             "guid": "G$s*l`UwRt",
-            "note_model_uuid": "fdae8056-a970-11ed-8421-15dbcf29f271",
+            "note_model_uuid": "f1472552-a79a-11ed-a724-4f7dd7fd8dd7",
             "tags": []
         },
         {
@@ -527,7 +470,7 @@
                 ""
             ],
             "guid": "bz~b>=i~&j",
-            "note_model_uuid": "fdae8056-a970-11ed-8421-15dbcf29f271",
+            "note_model_uuid": "f1472552-a79a-11ed-a724-4f7dd7fd8dd7",
             "tags": []
         }
     ],
