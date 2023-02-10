@@ -105,7 +105,7 @@
             "latexPost": "\\end{document}",
             "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
             "latexsvg": false,
-            "name": "Cloze",
+            "name": "Cloze-f5a73",
             "req": [
                 [
                     0,
@@ -274,7 +274,7 @@
             "latexPost": "\\end{document}",
             "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
             "latexsvg": false,
-            "name": "Image Occlusion Enhanced",
+            "name": "Image Occlusion Enhanced-d3839",
             "req": [
                 [
                     0,
@@ -301,6 +301,59 @@
             ],
             "type": 0,
             "vers": []
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "fdae8056-a970-11ed-8421-15dbcf29f271",
+            "css": ".card {\n  font-family: arial;\n  font-size: 20px;\n  text-align: center;\n  color: black;\n  background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n",
+            "flds": [
+                {
+                    "description": "",
+                    "font": "Arial",
+                    "name": "Text",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "description": "",
+                    "font": "Arial",
+                    "name": "Back Extra",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Cloze",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tmpls": [
+                {
+                    "afmt": "{{cloze:Text}}<br>\n{{Back Extra}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Cloze",
+                    "ord": 0,
+                    "qfmt": "{{cloze:Text}}"
+                }
+            ],
+            "type": 1
         }
     ],
     "notes": [
@@ -399,14 +452,14 @@
             "fields": [
                 "a6762eaa0afc4a28a7f6650b2f27acc6-oa-1",
                 "",
-                "<img src=\"tmp3lejvq2y.jpg\" />",
-                "<img src=\"a6762eaa0afc4a28a7f6650b2f27acc6-oa-1-Q.svg\" />",
+                "<img src=\"tmp3lejvq2y.jpg\">",
+                "<img src=\"a6762eaa0afc4a28a7f6650b2f27acc6-oa-1-Q.svg\">",
                 "",
                 "",
                 "",
                 "",
                 "",
-                "<img src=\"a6762eaa0afc4a28a7f6650b2f27acc6-oa-1-A.svg\" />",
+                "<img src=\"a6762eaa0afc4a28a7f6650b2f27acc6-oa-1-A.svg\">",
                 "<img src=\"a6762eaa0afc4a28a7f6650b2f27acc6-oa-O.svg\" />"
             ],
             "guid": "d|DybrSlZu",
@@ -430,6 +483,16 @@
             ],
             "guid": "x3Lo8Jlm4z",
             "note_model_uuid": "f14753ce-a79a-11ed-a724-4f7dd7fd8dd7",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<div><b>Immediately</b>, one ton of methane traps at least {{c1::100}} times as much as one ton of CO<sub>2</sub>.&nbsp;</div><div>Over <b>20</b> years, the methane traps about {{c2::80}} times as much heat as the CO<sub>2</sub>.&nbsp;</div><div>Over <b>100</b> years, the methane traps about {{c3::25}} times as much heat as the CO<sub>2</sub>.</div>",
+                ""
+            ],
+            "guid": "M-Dd.QOxta",
+            "note_model_uuid": "fdae8056-a970-11ed-8421-15dbcf29f271",
             "tags": []
         }
     ],
