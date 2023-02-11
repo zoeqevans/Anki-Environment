@@ -62,11 +62,24 @@
     "extendNew": 0,
     "extendRev": 0,
     "media_files": [
+        "9bde2b883eda44cda7b0004fe1b8ecae-oa-1-A.svg",
+        "9bde2b883eda44cda7b0004fe1b8ecae-oa-1-Q.svg",
+        "9bde2b883eda44cda7b0004fe1b8ecae-oa-2-A.svg",
+        "9bde2b883eda44cda7b0004fe1b8ecae-oa-2-Q.svg",
+        "9bde2b883eda44cda7b0004fe1b8ecae-oa-3-A.svg",
+        "9bde2b883eda44cda7b0004fe1b8ecae-oa-3-Q.svg",
+        "9bde2b883eda44cda7b0004fe1b8ecae-oa-O.svg",
         "a6762eaa0afc4a28a7f6650b2f27acc6-oa-1-A.svg",
         "a6762eaa0afc4a28a7f6650b2f27acc6-oa-1-Q.svg",
         "a6762eaa0afc4a28a7f6650b2f27acc6-oa-2-A.svg",
         "a6762eaa0afc4a28a7f6650b2f27acc6-oa-2-Q.svg",
         "a6762eaa0afc4a28a7f6650b2f27acc6-oa-O.svg",
+        "brown-Guernsey-cow.jpg",
+        "paste-23590ef2a5e9ecbe85cf6ef50dc86103bab0d52b.jpg",
+        "paste-48808e007ef6bad06ba20755dc139ec5178a3b63.jpg",
+        "paste-7527bc17967d451d9288296f9648ce1a3baeefaa.jpg",
+        "pj8mfM3_CP_XlC67I22VAlDlq5Dh4TqJYuIXSwXqf1e00JyK0egynEf9lh27HF9CEVM.png",
+        "tmp2nbdke7c.jpg",
         "tmp3lejvq2y.jpg"
     ],
     "mid": 1631024417675,
@@ -302,6 +315,162 @@
             ],
             "type": 0,
             "vers": []
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "9d20f34c-aa54-11ed-a9b9-85434d353e2e",
+            "css": "/* GENERAL CARD STYLE */\n.card {\n  font-family: \"Helvetica LT Std\", Helvetica, Arial, Sans;\n  font-size: 150%;\n  text-align: center;\n  color: black;\n  background-color: white;\n}\n\n/* OCCLUSION CSS START - don't edit this */\n#io-overlay {\n  position:absolute;\n  top:0;\n  width:100%;\n  z-index:3\n}\n\n#io-original {\n  position:relative;\n  top:0;\n  width:100%;\n  z-index:2;\n  visibility: hidden;\n}\n\n#io-wrapper {\n  position:relative;\n  width: 100%;\n}\n/* OCCLUSION CSS END */\n\n/* OTHER STYLES */\n#io-header{\n  font-size: 1.1em;\n  margin-bottom: 0.2em;\n}\n\n#io-footer{\n  max-width: 80%;\n  margin-left: auto;\n  margin-right: auto;\n  margin-top: 0.8em;\n  font-style: italic;\n}\n\n#io-extra-wrapper{\n  /* the wrapper is needed to center the\n  left-aligned blocks below it */\n  width: 80%;\n  margin-left: auto;\n  margin-right: auto;\n  margin-top: 0.5em;\n}\n\n#io-extra{\n  text-align:center;\n  display: inline-block;\n}\n\n.io-extra-entry{\n  margin-top: 0.8em;\n  font-size: 0.9em;\n  text-align:left;\n}\n\n.io-field-descr{\n  margin-bottom: 0.2em;\n  font-weight: bold;\n  font-size: 1em;\n}\n\n#io-revl-btn {\n  font-size: 0.5em;\n}\n\n/* ADJUSTMENTS FOR MOBILE DEVICES */\n\n.mobile .card, .mobile #content {\n  font-size: 120%;\n  margin: 0;\n}\n\n.mobile #io-extra-wrapper {\n  width: 95%;\n}\n\n.mobile #io-revl-btn {\n  font-size: 0.8em;\n}\n",
+            "flds": [
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "font": "Arial",
+                    "name": "ID (hidden)",
+                    "ord": 0,
+                    "plainText": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "font": "Arial",
+                    "name": "Header",
+                    "ord": 1,
+                    "plainText": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "font": "Arial",
+                    "name": "Image",
+                    "ord": 2,
+                    "plainText": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "font": "Arial",
+                    "name": "Question Mask",
+                    "ord": 3,
+                    "plainText": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "font": "Arial",
+                    "name": "Footer",
+                    "ord": 4,
+                    "plainText": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "font": "Arial",
+                    "name": "Remarks",
+                    "ord": 5,
+                    "plainText": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "font": "Arial",
+                    "name": "Sources",
+                    "ord": 6,
+                    "plainText": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "font": "Arial",
+                    "name": "Extra 1",
+                    "ord": 7,
+                    "plainText": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "font": "Arial",
+                    "name": "Extra 2",
+                    "ord": 8,
+                    "plainText": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "font": "Arial",
+                    "name": "Answer Mask",
+                    "ord": 9,
+                    "plainText": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "font": "Arial",
+                    "name": "Original Mask",
+                    "ord": 10,
+                    "plainText": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Image Occlusion Enhanced",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        2
+                    ]
+                ]
+            ],
+            "sortf": 1,
+            "tmpls": [
+                {
+                    "afmt": "{{#Image}}\n<div id=\"io-header\">{{Header}}</div>\n<div id=\"io-wrapper\">\n  <div id=\"io-overlay\">{{Answer Mask}}</div>\n  <div id=\"io-original\">{{Image}}</div>\n</div>\n{{#Footer}}<div id=\"io-footer\">{{Footer}}</div>{{/Footer}}\n<button id=\"io-revl-btn\" onclick=\"toggle();\">Toggle Masks</button>\n<div id=\"io-extra-wrapper\">\n  <div id=\"io-extra\">\n    {{#Remarks}}\n      <div class=\"io-extra-entry\">\n        <div class=\"io-field-descr\">Remarks</div>{{Remarks}}\n      </div>\n    {{/Remarks}}\n    {{#Sources}}\n      <div class=\"io-extra-entry\">\n        <div class=\"io-field-descr\">Sources</div>{{Sources}}\n      </div>\n    {{/Sources}}\n    {{#Extra 1}}\n      <div class=\"io-extra-entry\">\n        <div class=\"io-field-descr\">Extra 1</div>{{Extra 1}}\n      </div>\n    {{/Extra 1}}\n    {{#Extra 2}}\n      <div class=\"io-extra-entry\">\n        <div class=\"io-field-descr\">Extra 2</div>{{Extra 2}}\n      </div>\n    {{/Extra 2}}\n  </div>\n</div>\n\n<script>\n// Toggle answer mask on clicking the image\nvar toggle = function() {\n  var amask = document.getElementById('io-overlay');\n  if (amask.style.display === 'block' || amask.style.display === '')\n    amask.style.display = 'none';\n  else\n    amask.style.display = 'block'\n}\n\n// Prevent original image from loading before mask\naFade = 50, qFade = 0;\nvar mask = document.querySelector('#io-overlay>img');\nfunction loaded() {\n    var original = document.querySelector('#io-original');\n    original.style.visibility = \"visible\";\n}\nif (mask === null || mask.complete) {\n    loaded();\n} else {\n    mask.addEventListener('load', loaded);\n}\n</script>\n{{/Image}}\n",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "IO Card",
+                    "ord": 0,
+                    "qfmt": "{{#Image}}\n<div id=\"io-header\">{{Header}}</div>\n<div id=\"io-wrapper\">\n  <div id=\"io-overlay\">{{Question Mask}}</div>\n  <div id=\"io-original\">{{Image}}</div>\n</div>\n<div id=\"io-footer\">{{Footer}}</div>\n\n<script>\n// Prevent original image from loading before mask\naFade = 50, qFade = 0;\nvar mask = document.querySelector('#io-overlay>img');\nfunction loaded() {\n    var original = document.querySelector('#io-original');\n    original.style.visibility = \"visible\";\n}\nif (mask === null || mask.complete) {\n    loaded();\n} else {\n    mask.addEventListener('load', loaded);\n}\n</script>\n{{/Image}}\n"
+                }
+            ],
+            "type": 0
         }
     ],
     "notes": [
@@ -446,20 +615,187 @@
         {
             "__type__": "Note",
             "fields": [
-                "In the last 170 years, we added {{c1::2.4 trillion}} tons of Carbon Dioxide into our atmosphere. Half of this was added in the last {{c2::35 to&nbsp;50}}&nbsp;years.",
+                "CO<sub>2</sub>&nbsp;has a half-life in the atmosphere of about&nbsp;{{c1::120}} years; methane is about {{c1::10}} years.",
                 ""
             ],
-            "guid": "t~Qw]<v}{=",
+            "guid": "G$s*l`UwRt",
             "note_model_uuid": "f1472552-a79a-11ed-a724-4f7dd7fd8dd7",
             "tags": []
         },
         {
             "__type__": "Note",
             "fields": [
-                "CO<sub>2</sub>&nbsp;has a half-life in the atmosphere of about&nbsp;{{c1::120}} years; methane is about {{c1::10}} years.",
+                "Global CO<sub>2</sub>&nbsp;emissions started rising around&nbsp;{{c1::1800}}, when they were about&nbsp;{{c2::30 million tonnes}} of CO<sub>2</sub>&nbsp;annually. They are now about&nbsp;{{c3::30 billion}} tonnes of CO<sub>2</sub>&nbsp;annually.",
+                "<img src=\"paste-48808e007ef6bad06ba20755dc139ec5178a3b63.jpg\">"
+            ],
+            "guid": "q!YP(0G<3{",
+            "note_model_uuid": "f1472552-a79a-11ed-a724-4f7dd7fd8dd7",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "{{c1::12}} plant species account for&nbsp;{{c1::75%}} of crop production.",
+                "<img src=\"paste-7527bc17967d451d9288296f9648ce1a3baeefaa.jpg\">"
+            ],
+            "guid": "i++l8;bW}X",
+            "note_model_uuid": "f1472552-a79a-11ed-a724-4f7dd7fd8dd7",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "9bde2b883eda44cda7b0004fe1b8ecae-oa-1",
+                "",
+                "<img src=\"tmp2nbdke7c.jpg\" />",
+                "<img src=\"9bde2b883eda44cda7b0004fe1b8ecae-oa-1-Q.svg\" />",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "<img src=\"9bde2b883eda44cda7b0004fe1b8ecae-oa-1-A.svg\" />",
+                "<img src=\"9bde2b883eda44cda7b0004fe1b8ecae-oa-O.svg\" />"
+            ],
+            "guid": "G<|6z6^~?2",
+            "note_model_uuid": "9d20f34c-aa54-11ed-a9b9-85434d353e2e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "9bde2b883eda44cda7b0004fe1b8ecae-oa-2",
+                "",
+                "<img src=\"tmp2nbdke7c.jpg\" />",
+                "<img src=\"9bde2b883eda44cda7b0004fe1b8ecae-oa-2-Q.svg\" />",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "<img src=\"9bde2b883eda44cda7b0004fe1b8ecae-oa-2-A.svg\" />",
+                "<img src=\"9bde2b883eda44cda7b0004fe1b8ecae-oa-O.svg\" />"
+            ],
+            "guid": "z!`f0>6.88",
+            "note_model_uuid": "9d20f34c-aa54-11ed-a9b9-85434d353e2e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "9bde2b883eda44cda7b0004fe1b8ecae-oa-3",
+                "",
+                "<img src=\"tmp2nbdke7c.jpg\" />",
+                "<img src=\"9bde2b883eda44cda7b0004fe1b8ecae-oa-3-Q.svg\" />",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "<img src=\"9bde2b883eda44cda7b0004fe1b8ecae-oa-3-A.svg\" />",
+                "<img src=\"9bde2b883eda44cda7b0004fe1b8ecae-oa-O.svg\">"
+            ],
+            "guid": "x2kiQ-7aEo",
+            "note_model_uuid": "9d20f34c-aa54-11ed-a9b9-85434d353e2e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Nobody knows how much monocropping occurs in the US, but it is probably around&nbsp;{{c1::15%}} of crop production.",
+                "<img src=\"paste-23590ef2a5e9ecbe85cf6ef50dc86103bab0d52b.jpg\"><br><br><b>Source:&nbsp;</b>Market-Driven Corn Monocropping in\nthe U.S. Midwest&nbsp;"
+            ],
+            "guid": "Fmx&Gp32{f",
+            "note_model_uuid": "f1472552-a79a-11ed-a724-4f7dd7fd8dd7",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Potential externalities of monocropping include:<br><br>{{c1::Nitrate runoff}}<br>{{c5::Increased pesticide use}}<br><br>{{c2::Increased pest population}}<br>{{c3::Kills pollinators because of homogenous diet &amp; pesticides}}<br><br>{{c4::More water use due to weaker topsoil}}",
                 ""
             ],
-            "guid": "G$s*l`UwRt",
+            "guid": "t/T_Kp-guK",
+            "note_model_uuid": "f1472552-a79a-11ed-a724-4f7dd7fd8dd7",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Nitrate runoff is bad because of {{c1::NO<sub>2&nbsp;</sub>emissions (300x warming potential of CO<sub>2</sub>)}},&nbsp;{{c2::algal bloom in water}} and {{c3::water contamination leading to health risks (rare, but bad)}}.<br><br>",
+                ""
+            ],
+            "guid": "i~ezqS,m|H",
+            "note_model_uuid": "f1472552-a79a-11ed-a724-4f7dd7fd8dd7",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Downsides of pesticide use include&nbsp;{{c1::increased resistance of pests}}, {{c4::kills pollinators}}, {{c2::water contamination affecting local areas (maybe bad for neighbour's tap water)}} and&nbsp;{{c3::farm worker health}}.",
+                ""
+            ],
+            "guid": "JSFYg0lF.K",
+            "note_model_uuid": "f1472552-a79a-11ed-a724-4f7dd7fd8dd7",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Farm workers in the US have a life expectancy of&nbsp;{{c1::49}} years.",
+                ""
+            ],
+            "guid": "iGszi92Gvd",
+            "note_model_uuid": "f1472552-a79a-11ed-a724-4f7dd7fd8dd7",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Switching to organic farming drops food output per area by ~{{c1::40}}%.<br><br>The effect on GHG emissions would be: {{c2::direct emissions would decrease, but overseas land use change would mean that total emissions would go up.}}",
+                "<b><br>Source:&nbsp;</b>UK Organic Farming Paper"
+            ],
+            "guid": "o7B)2L4O6",
+            "note_model_uuid": "f1472552-a79a-11ed-a724-4f7dd7fd8dd7",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "The three main aspects of organic farming are:<br><br>{{c1::Organic fertilizer instead of synthetic}}<br><br>{{c2::No pesticides}}<br><br>{{c3::Emphasis on crop rotation + companion planting}}",
+                ""
+            ],
+            "guid": "tQ(RrOe*93",
+            "note_model_uuid": "f1472552-a79a-11ed-a724-4f7dd7fd8dd7",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Globally, what are the main differences in crop yields and diversity between small &amp; big farms?<br><br>Small farms have {{c1::slightly higher yields (unclear if weight-per-acre or value-per-acre)}}.<br><br>There is little difference in&nbsp;{{c2::resource-use efficiency}} and&nbsp;{{c2::profit}}<br><br>",
+                "<br><br>FYI, none of this is really true in the US: the relationship between big &amp; small farms in the US is very different than in more agriculture-heavy countries.<b><br><br>Source:&nbsp;</b>Higher yields and more biodiversity on smaller farms"
+            ],
+            "guid": "lHZ{hIDNis",
+            "note_model_uuid": "f1472552-a79a-11ed-a724-4f7dd7fd8dd7",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "It takes&nbsp;{{c1::20}} lbs of grain to make 1lb of beef.",
+                "<img alt=\"Cow | Description &amp; Facts | Britannica\" src=\"brown-Guernsey-cow.jpg\">"
+            ],
+            "guid": "gSg$]ETcu_",
+            "note_model_uuid": "f1472552-a79a-11ed-a724-4f7dd7fd8dd7",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "US meat consumption is ~{{c1::250}} lbs per person, annually: this is #{{c2::<b>2</b>}} in the world!",
+                "<img alt=\"US Meat Connect - Apps en Google Play\" src=\"pj8mfM3_CP_XlC67I22VAlDlq5Dh4TqJYuIXSwXqf1e00JyK0egynEf9lh27HF9CEVM.png\">"
+            ],
+            "guid": "Ds^$U}HHi>",
             "note_model_uuid": "f1472552-a79a-11ed-a724-4f7dd7fd8dd7",
             "tags": []
         }
