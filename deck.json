@@ -35,7 +35,7 @@
                     0
                 ],
                 "order": 1,
-                "perDay": 40,
+                "perDay": 30,
                 "separate": true
             },
             "newGatherPriority": 0,
@@ -47,7 +47,7 @@
                 "bury": false,
                 "ease4": 2.0,
                 "fuzz": 0.05,
-                "hardFactor": 1.2,
+                "hardFactor": 0.8,
                 "ivlFct": 1.0,
                 "maxIvl": 3650,
                 "minSpace": 1,
@@ -69,6 +69,7 @@
         "9bde2b883eda44cda7b0004fe1b8ecae-oa-3-A.svg",
         "9bde2b883eda44cda7b0004fe1b8ecae-oa-3-Q.svg",
         "9bde2b883eda44cda7b0004fe1b8ecae-oa-O.svg",
+        "Screen-Shot-2022-10-20-at-11.12.40-AM.png",
         "a6762eaa0afc4a28a7f6650b2f27acc6-oa-1-A.svg",
         "a6762eaa0afc4a28a7f6650b2f27acc6-oa-1-Q.svg",
         "a6762eaa0afc4a28a7f6650b2f27acc6-oa-2-A.svg",
@@ -78,6 +79,10 @@
         "paste-23590ef2a5e9ecbe85cf6ef50dc86103bab0d52b.jpg",
         "paste-48808e007ef6bad06ba20755dc139ec5178a3b63.jpg",
         "paste-7527bc17967d451d9288296f9648ce1a3baeefaa.jpg",
+        "paste-8cb64beb58f3ec653a2bc4ea8cc82d08b93069ef.jpg",
+        "paste-946bdd385953df16a4adbffc02a27db50e783747.jpg",
+        "paste-a091fad58f60459d8423235386fae5e79ee3590d.jpg",
+        "paste-f225705c87d7999184d455d7d46d4bfd9c8ee072.jpg",
         "pj8mfM3_CP_XlC67I22VAlDlq5Dh4TqJYuIXSwXqf1e00JyK0egynEf9lh27HF9CEVM.png",
         "tmp2nbdke7c.jpg",
         "tmp3lejvq2y.jpg"
@@ -596,7 +601,7 @@
                 "",
                 "",
                 "<img src=\"a6762eaa0afc4a28a7f6650b2f27acc6-oa-2-A.svg\">",
-                "<img src=\"a6762eaa0afc4a28a7f6650b2f27acc6-oa-O.svg\" />"
+                "<img src=\"a6762eaa0afc4a28a7f6650b2f27acc6-oa-O.svg\">"
             ],
             "guid": "x3Lo8Jlm4z",
             "note_model_uuid": "f14753ce-a79a-11ed-a724-4f7dd7fd8dd7",
@@ -605,7 +610,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "<div><b>Immediately</b>, one ton of methane traps at least {{c1::100}} times as much as one ton of CO<sub>2</sub>.&nbsp;</div><div>Over <b>20</b> years, the methane traps about {{c2::80}} times as much heat as the CO<sub>2</sub>.&nbsp;</div><div>Over <b>100</b> years, the methane traps about {{c3::25}} times as much heat as the CO<sub>2</sub>.</div>",
+                "<div>Immediately, one ton of methane traps {{c2::100}} times as much as one ton of CO<sub>2</sub>.&nbsp;</div><div><br></div><div>Over {{c1::20}}&nbsp;years, the methane traps about {{c2::80}} times as much heat as the CO<sub>2</sub>.&nbsp;</div><div><br></div><div>Over {{c1::100}}&nbsp;years, the methane traps about {{c2::25}} times as much heat as the CO<sub>2</sub>.</div>",
                 ""
             ],
             "guid": "M-Dd.QOxta",
@@ -625,7 +630,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "Global CO<sub>2</sub>&nbsp;emissions started rising around&nbsp;{{c1::1800}}, when they were about&nbsp;{{c2::30 million tonnes}} of CO<sub>2</sub>&nbsp;annually. They are now about&nbsp;{{c3::30 billion}} tonnes of CO<sub>2</sub>&nbsp;annually.",
+                "Global CO<sub>2</sub>&nbsp;emissions started rising around&nbsp;{{c1::1800}}, when they were about&nbsp;{{c2::30 million tonnes}} of CO<sub>2</sub>&nbsp;annually. <br><br>There are now about&nbsp;{{c3::30 billion}} tonnes of CO<sub>2</sub>&nbsp;annually.",
                 "<img src=\"paste-48808e007ef6bad06ba20755dc139ec5178a3b63.jpg\">"
             ],
             "guid": "q!YP(0G<3{",
@@ -655,7 +660,7 @@
                 "",
                 "",
                 "<img src=\"9bde2b883eda44cda7b0004fe1b8ecae-oa-1-A.svg\" />",
-                "<img src=\"9bde2b883eda44cda7b0004fe1b8ecae-oa-O.svg\" />"
+                "<img src=\"9bde2b883eda44cda7b0004fe1b8ecae-oa-O.svg\">"
             ],
             "guid": "G<|6z6^~?2",
             "note_model_uuid": "9d20f34c-aa54-11ed-a9b9-85434d353e2e",
@@ -712,7 +717,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "Potential externalities of monocropping include:<br><br>{{c1::Nitrate runoff}}<br>{{c5::Increased pesticide use}}<br><br>{{c2::Increased pest population}}<br>{{c3::Kills pollinators because of homogenous diet &amp; pesticides}}<br><br>{{c4::More water use due to weaker topsoil}}",
+                "<b>Potential externalities of monocropping include:</b><br><br>1) {{c1::Nitrate runoff}}<br>2) {{c5::Increased pesticide use}}<br><br>3) {{c2::Increased pest population}}<br>4) {{c3::Kills pollinators because of homogenous diet &amp; pesticides}}<br><br>5) {{c4::More water use due to weaker topsoil}}",
                 ""
             ],
             "guid": "t/T_Kp-guK",
@@ -722,7 +727,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "Nitrate runoff is bad because of {{c1::NO<sub>2&nbsp;</sub>emissions (300x warming potential of CO<sub>2</sub>)}},&nbsp;{{c2::algal bloom in water}} and {{c3::water contamination leading to health risks (rare, but bad)}}.<br><br>",
+                "Nitrate runoff is bad because of {{c1::NO<sub>2&nbsp;</sub>emissions (300x warming potential of CO<sub>2</sub>)}},&nbsp;{{c2::algal bloom}} and {{c3::water contamination leading to health risks (rare, but bad)}}.<br><br>",
                 ""
             ],
             "guid": "i~ezqS,m|H",
@@ -732,7 +737,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "Downsides of pesticide use include&nbsp;{{c1::increased resistance of pests}}, {{c4::kills pollinators}}, {{c2::water contamination affecting local areas (maybe bad for neighbour's tap water)}} and&nbsp;{{c3::farm worker health}}.",
+                "<b>Downsides of pesticide use include:</b><br><br>1) {{c1::Increased resistance of pests}}<br><br>2) {{c4::Kills pollinators}}<br><br>3) {{c2::Water contamination affecting local areas (maybe bad for neighbour's tap water)}}<br><br>4)&nbsp; {{c3::Farm worker health}}.",
                 ""
             ],
             "guid": "JSFYg0lF.K",
@@ -772,7 +777,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "Globally, what are the main differences in crop yields and diversity between small &amp; big farms?<br><br>Small farms have {{c1::slightly higher yields (unclear if weight-per-acre or value-per-acre)}}.<br><br>There is little difference in&nbsp;{{c2::resource-use efficiency}} and&nbsp;{{c2::profit}}<br><br>",
+                "Globally, what are the main differences in crop yields and diversity between small &amp; big farms?<br><br>Small farms have {{c1::slightly higher yields (unclear if weight-per-acre or value-per-acre)}}.<br><br>There is little difference in&nbsp;{{c2::GHG emissions}} and&nbsp;{{c2::profit}}<br><br>",
                 "<br><br>FYI, none of this is really true in the US: the relationship between big &amp; small farms in the US is very different than in more agriculture-heavy countries.<b><br><br>Source:&nbsp;</b>Higher yields and more biodiversity on smaller farms"
             ],
             "guid": "lHZ{hIDNis",
@@ -796,6 +801,126 @@
                 "<img alt=\"US Meat Connect - Apps en Google Play\" src=\"pj8mfM3_CP_XlC67I22VAlDlq5Dh4TqJYuIXSwXqf1e00JyK0egynEf9lh27HF9CEVM.png\">"
             ],
             "guid": "Ds^$U}HHi>",
+            "note_model_uuid": "f1472552-a79a-11ed-a724-4f7dd7fd8dd7",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "{{c2::NEPA (the National Environmental Policy Act)}} is the foundation of {{c1::environmental law in the US}}, and was signed into law in {{c3::1970}}.",
+                "<br><i>NEPA precipitated the creation of the EPA, the Clean Air Act, the Clean Water Act, etc., and is often called the \"Magna Carta of environmental law\".</i>"
+            ],
+            "guid": "k$^a@Lr-*N",
+            "note_model_uuid": "f1472552-a79a-11ed-a724-4f7dd7fd8dd7",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Unlike the more specific environmental laws that followed it, NEPA&nbsp;{{c1::doesn't actually provide environmental protections}}. Instead it does three things:<br><br>1)&nbsp;{{c2::Declares a national environmental policy in lofty language}}<br><br>2)&nbsp;{{c3::Directs federal agencies to follow that policy, and take environmental effects into account when making decisions}}<br><br>3)&nbsp;{{c4::Establishes a Council on Environmental Equality (CEQ) in the White House}}.",
+                ""
+            ],
+            "guid": "i>.*kELETq",
+            "note_model_uuid": "f1472552-a79a-11ed-a724-4f7dd7fd8dd7",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "The most important part of NEPA is a subsection specifying that:<br><br>{{c1::\"Major Federal action\" significantly affecting the quality of the human environment requires a \"detailed environmental impact statement\"}}.",
+                "<br><br>None of these terms are defined..."
+            ],
+            "guid": "e/pfttTMV/",
+            "note_model_uuid": "f1472552-a79a-11ed-a724-4f7dd7fd8dd7",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "The mean preparation time for EISs finished in 2020 was&nbsp;{{c1::about 5 years}}.",
+                ""
+            ],
+            "guid": "Lf!v?{w}/t",
+            "note_model_uuid": "f1472552-a79a-11ed-a724-4f7dd7fd8dd7",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Federal agencies can skip EISs if they issue a&nbsp;{{c1::Finding of No Significant Impact (FONSI)}}, which must be based on an&nbsp;{{c2::Environmental Assessment (EA)}}.",
+                "<br><br>The EA requirement was created by the CEQ in 1978, and is not mentioned in NEPA."
+            ],
+            "guid": "vPLchx[$G:",
+            "note_model_uuid": "f1472552-a79a-11ed-a724-4f7dd7fd8dd7",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "The federal government finalized around&nbsp;{{c1::200}} EISs each year, whereas it finalizes over&nbsp;{{c2::10,000}} EAs. <br><br>So even though EAs are shorter, their cumulative burden is much greater.",
+                ""
+            ],
+            "guid": "HwmzdS#<:N",
+            "note_model_uuid": "f1472552-a79a-11ed-a724-4f7dd7fd8dd7",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Surprisingly many things constitute a 'federal action' under NEPA, notably including&nbsp;{{c1::permit granting and changing of regulations}}.<br><br>NYC's congestion pricing is a good example: {{c2::its roads are part of the National Highway System, so it needs approval from the Federal Highway Administration, which then requires an EA}}.",
+                ""
+            ],
+            "guid": "q80M5Pg(ql",
+            "note_model_uuid": "f1472552-a79a-11ed-a724-4f7dd7fd8dd7",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Projects can involve&nbsp;<i>several</i>&nbsp;NEPA reviews if {{c2::they require multiple agency approvals}}. An example geothermal development on federal land required&nbsp;{{c1::six}} NEPA reviews over 10 years: <br><br>1) To make the land available for leasing<br>2) To actually lease it<br>3) For basic site exploration<br>4) To dig exploratory wells<br>5) To actually develop the wells<br>6) To build the power plant and transmission lines, etc.",
+                "<img src=\"Screen-Shot-2022-10-20-at-11.12.40-AM.png\">"
+            ],
+            "guid": "P&!h/+/{n0",
+            "note_model_uuid": "f1472552-a79a-11ed-a724-4f7dd7fd8dd7",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "The mammalian biosphere is&nbsp;<i>wildly</i>&nbsp;human focused. By biomass (measured in weight of carbon):<br><br>Wild Mammals: {{c1::4%}}<br>Humans:&nbsp;{{c2::About 1/3}}<br>Livestock:&nbsp;{{c3::About 2/3}}",
+                "<img src=\"paste-f225705c87d7999184d455d7d46d4bfd9c8ee072.jpg\">"
+            ],
+            "guid": "wbSSQJGPNh",
+            "note_model_uuid": "f1472552-a79a-11ed-a724-4f7dd7fd8dd7",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "{{c1::80%}} of global biomass is in&nbsp;{{c2::plants}}, {{c1::10%}} in&nbsp;{{c2::bacteria}}, and only&nbsp;{{c1::0.4%}} in {{c2::animals}}<b>.</b>",
+                "<img src=\"paste-8cb64beb58f3ec653a2bc4ea8cc82d08b93069ef.jpg\">"
+            ],
+            "guid": "g_*!vd_;W/",
+            "note_model_uuid": "f1472552-a79a-11ed-a724-4f7dd7fd8dd7",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Among animals, {{c1::fish}} and {{c2::arthopods}} take up most of the biomass.<br><br>Mammals and birds make up less than&nbsp;{{c3::5%}} of animal biomass.",
+                "<img src=\"paste-a091fad58f60459d8423235386fae5e79ee3590d.jpg\">"
+            ],
+            "guid": "i[$9)Ncko/",
+            "note_model_uuid": "f1472552-a79a-11ed-a724-4f7dd7fd8dd7",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "{{c1::Arthropods}} are the {{c2::most dominant animal (by biomass)}}, and characteristics include:<br><br>1) {{c3::Invertebrates}}<br>2) {{c4::Shells}}<br>3)&nbsp;{{c5::Segmented bodies}}<br><br>Common examples include:&nbsp;{{c6::crustaceans, centipedes, insects, spiders}}.",
+                "<img src=\"paste-946bdd385953df16a4adbffc02a27db50e783747.jpg\">"
+            ],
+            "guid": "k=E([+kAVm",
             "note_model_uuid": "f1472552-a79a-11ed-a724-4f7dd7fd8dd7",
             "tags": []
         }
